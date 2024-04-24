@@ -7,7 +7,7 @@ async function query(data) {
   const response = await fetch(
     "https://api-inference.huggingface.co/models/ehristoforu/dalle-3-xl-v2",
     {
-      headers: { Authorization: "Bearer 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" },
+      headers: { Authorization: "" },
       method: "POST",
       body: JSON.stringify(data),
     }
